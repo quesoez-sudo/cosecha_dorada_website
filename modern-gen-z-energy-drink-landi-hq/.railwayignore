@@ -1,0 +1,25 @@
+# Files excluded from the Railway upload (not needed to build or run the site).
+# node_modules, .next and .env* are already excluded via .gitignore.
+
+# Docs / tooling config
+README.md
+components.json
+
+# pnpm-lock.yaml is the lockfile in use; drop the npm one so the build picks pnpm unambiguously
+package-lock.json
+
+# Railway builds with pnpm 9, which fails on this workspace file ("packages field missing or empty").
+# It only holds pnpm 10's sharp build-approval setting; pnpm 9 runs build scripts by default.
+pnpm-workspace.yaml
+
+# Unused shadcn components (nothing in app/ or components/ imports them)
+components/ui/
+
+# Images not referenced anywhere in the code
+public/images/cd_mascot.png
+public/images/gigi.jpg
+public/images/image.png
+public/images/logo1.JPG
+public/images/photo_editorial.png
+public/images/photo_label_closeup.png
+public/images/photo_pour2.png
