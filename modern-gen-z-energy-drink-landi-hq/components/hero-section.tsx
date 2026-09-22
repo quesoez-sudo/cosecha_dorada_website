@@ -196,7 +196,7 @@ export function HeroSection() {
                   alt="Botella Cosecha Dorada - Vino de Lulo"
                   width={343}
                   height={1604}
-                  className="relative z-10 drop-shadow-2xl w-auto h-[clamp(20rem,55vh,34rem)] md:h-[clamp(18rem,52vh,34rem)] max-w-[80vw]"
+                  className="relative z-10 drop-shadow-2xl w-auto h-[clamp(20rem,55vh,34rem)] md:h-[clamp(22rem,62vh,42rem)] max-w-[80vw]"
                   priority
                 />
               </motion.div>
