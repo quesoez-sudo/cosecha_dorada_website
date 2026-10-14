@@ -163,13 +163,21 @@ export function FlavorCarousel() {
             transition={{ duration: 0.8, ease: [0.25, 0.4, 0.25, 1], delay: 0.2 }}
           >
             <blockquote className="text-2xl md:text-3xl font-display text-[#244A36] tracking-[-0.03em] leading-tight">
-              SOMOS DOS JÓVENES INGENIEROS QUE DECIDIMOS{" "}
-              <span className="text-[#E86A20]">TRANSFORMAR FÓRMULAS EN EXPERIENCIAS.</span>
+              NO BUSCAMOS HACER UN VINO COMO TODOS LOS DEMÁS.{" "}
+              <span className="text-[#E86A20]">BUSCAMOS UNO QUE DESPIERTE LOS SENTIDOS.</span>
             </blockquote>
             <p className="mt-6 text-[#244A36]/70 font-sans text-base leading-relaxed max-w-2xl mx-auto">
-              Creamos este vino pensando en quienes, como tú, se atreven a probar lo distinto. Exploramos frutas poco
-              convencionales para reinventar el vino, mezclando ciencia, intuición y sabor. No seguimos reglas viejas,
-              creamos las nuestras.
+              Creamos este vino para quienes disfrutan descubrir nuevos sabores, romper con lo conocido y dejarse
+              sorprender. Un vino nacido de la curiosidad, la creatividad y las ganas de hacer las cosas de una manera
+              diferente.
+            </p>
+            <p className="mt-4 text-[#244A36]/70 font-sans text-base leading-relaxed max-w-2xl mx-auto">
+              Cosecha Dorada nace de una mezcla especial de frutas tropicales como el lulo y la maracuyá, que aportan
+              frescura, acidez y ese carácter único que lo hace diferente a los vinos tradicionales. Ciencia, creatividad
+              y sabor en una experiencia fresca, vibrante e inesperada.
+            </p>
+            <p className="mt-6 text-[#244A36] font-sans text-lg italic">
+              Porque a veces, lo mejor está en salir de lo de siempre.
             </p>
           </motion.div>
 

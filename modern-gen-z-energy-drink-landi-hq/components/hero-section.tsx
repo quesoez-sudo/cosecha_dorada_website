@@ -107,8 +107,7 @@ export function HeroSection() {
                 custom={2}
                 className="text-lg md:text-xl font-sans text-[#244A36]/70 tracking-tight pt-2 max-w-md"
               >
-                Vino artesanal de frutas tropicales colombianas. Creado por dos ingenieros que decidieron romper las
-                reglas.
+                Vino artesanal de lulo y maracuyá. Para quienes disfrutan salir de lo de siempre.
               </motion.p>
             </div>
 
